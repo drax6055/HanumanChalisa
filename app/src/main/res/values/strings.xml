@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">hanuman chalisa</string>
+    <string name="title_activity_splashscreen">Splashscreen</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="share_message" formatted="false">*%s* સાંભળવા માટે ડાઊનલોડ કરો https://play.google.com/store/apps/details?id=%s</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+<!--    ca-app-pub-5361915611585821/7783355123-->
+</resources>

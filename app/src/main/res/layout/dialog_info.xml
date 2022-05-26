@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:background="@color/white"
+    android:gravity="center"
+    android:padding="10dp"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Let's Share"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="#5E5D5D"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+        <ImageButton
+            android:id="@+id/shareviaFb"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/facebook"
+            android:layout_margin="5dp" />
+        <ImageButton
+            android:id="@+id/shareviatwitter"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+              android:layout_margin="5dp"
+            android:src="@drawable/twitter"/>
+        <ImageButton
+            android:id="@+id/shareviawhatsapp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+              android:layout_margin="5dp"
+            android:src="@drawable/whatsapp"/>
+        <ImageButton
+            android:id="@+id/shareviagoogle_plus"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+              android:layout_margin="5dp"
+            android:src="@drawable/current"/>
+    </LinearLayout>
+<View
+    android:layout_width="270dp"
+    android:layout_height="1dp"
+    android:layout_margin="5dp"
+    android:background="#7E7A7A"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ratings"
+        android:layout_margin="5dp"
+        android:textColor="#5E5D5D"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        />
+    <RatingBar
+        android:id="@+id/rateus"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rating="3.5"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Design and Created by"
+        android:textColor="#5E5D5D"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        />
+    <ImageView
+
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_margin="5dp"
+        android:src="@drawable/ic_hari"
+        app:tint="#762346" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+91 9898071213"
+        android:textColor="#5E5D5D"
+        android:layout_margin="5dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="www.piyushranafilms.com"
+        android:textColor="#5E5D5D"
+        android:layout_margin="5dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        />
+</LinearLayout>
